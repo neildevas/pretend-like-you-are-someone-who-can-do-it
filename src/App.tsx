@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 
-const quotes = [{ quote: "Pretend like you are someone who can do it.", author: "Neil Gaiman" }];
+const quotes = [{ quote: "Pretend like you are someone who can do it", author: "Neil Gaiman" }];
 
 function App() {
   const [quoteIndex, setQuoteIndex] = useState(0)
