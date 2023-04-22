@@ -7,9 +7,8 @@
 
 .App {
   display: -webkit-flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-
 }
 
 .logo {
@@ -41,8 +40,7 @@
 }
 
 .card {
-  padding: 1em 2em;
-  max-width: 500px;
+  padding: 2em;
 }
 
 .read-the-docs {
